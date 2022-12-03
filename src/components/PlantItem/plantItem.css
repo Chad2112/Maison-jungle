@@ -1,0 +1,37 @@
+.lmj-plant-item-cover {
+    height: 300px;
+    width: 300px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+}
+
+.lmj-plant-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    transition: all 1s;
+    text-decoration: none;
+
+}
+
+.lmj-plant-name {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0px 15px;
+
+}
+
+
+.lmj-CareScale {
+    width: 100%;
+    padding: 0px 15px 10px 15px;
+}
+
+.lmj-plant-item-cover :nth-child(3) {
+    height: 220px;
+    width: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
