@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles/index.css";
+import "./index.css";
 import Banner from "./components/banner/banner";
 import Footer from "./components/Footer/footer";
-import App from "./pages/App";
+import Produits from "./pages/Produits";
 import Plants from "./pages/Plants";
+import Accueil from "./pages/Accueil";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -14,8 +15,9 @@ root.render(
     <Banner />
     <Router>
       <Routes>
-        <Route path="/" element={<App />}></Route>
-        <Route path="/Plants/:plantsId" element={<Plants />}></Route>
+        <Route path="/Maison-jungle" element={<Accueil />}></Route>
+        <Route path="/Maison-jungle/produits" element={<Produits />}></Route>
+        <Route path="/Maison-jungle/Plants/:plantsId" element={<Plants />}></Route>
         {/* <Route path="/Portfolio_React/CV" element={<CV />}></Route>
         <Route path="/Portfolio_React/Contact" element={<Contact />}></Route>
         <Route path="/Portfolio_React/*" element={<Navigate to="/Portfolio_React/" />} /> */}

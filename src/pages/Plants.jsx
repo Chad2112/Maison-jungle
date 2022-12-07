@@ -51,6 +51,7 @@ function Plants() {
       <Cart cart={cart} updateCart={updateCart} />
       {DataPlant.map(({ cover, name, price, description, waterComment, entretien, id }) => (
         <div key={id}>
+          <h2 className="Product-title">{name}</h2>
           <div className="Product-contain">
             <img className="Product-img" src={cover} alt="Plante"></img>
             <div className="Product-btn-price">

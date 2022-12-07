@@ -1,4 +1,4 @@
-import "./App.css";
+import "./Produits.css";
 
 import Cart from "../components/Cart/Cart";
 import ShoppingList from "../components/ShoppingList/shoppingList";
@@ -13,11 +13,18 @@ function App() {
   }, [cart]);
 
   const [activeCategory, setActiveCategory] = useState("");
+  const [PriceFilter, setPriceFilter] = useState("");
 
   return (
     <main className="main">
-      <Cart cart={cart} updateCart={updateCart} activeCategory={activeCategory} setActiveCategory={setActiveCategory} />
-      <ShoppingList cart={cart} updateCart={updateCart} activeCategory={activeCategory} setActiveCategory={setActiveCategory} />
+      <ShoppingList
+        cart={cart}
+        updateCart={updateCart}
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+        PriceFilter={PriceFilter}
+        setPriceFilter={setPriceFilter}
+      />
       <CareScale />
     </main>
   );

@@ -1,6 +1,6 @@
 import sun from "../../assets/sun.svg";
 import water from "../../assets/water.svg";
-import "../PlantItem/plantItem.css";
+import "../Card/Card.css";
 
 const quantity = {
   1: "peu",

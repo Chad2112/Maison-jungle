@@ -1,0 +1,69 @@
+.lmj-categories {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 60px;
+    margin: 25px;
+
+}
+
+.lmj-cart-rein {
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    border: #31b572;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    height: 25px;
+    width: 100px;
+    margin: 0px 10px;
+    background-color: #31b573de;
+    font-family: -apple-system, BlinkMacSystemFont, 'Lobster',
+        sans-serif;
+}
+
+.lmj-categories-select {
+    border-radius: 25px;
+    margin: 0px 10px;
+    cursor: pointer;
+    border: #31b572 1px solid;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #31b573de;
+    height: 25px;
+    width: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Lobster',
+        sans-serif;
+    text-align: center;
+}
+
+.lmj-open-filter {
+    position: absolute;
+    right: 3%;
+    width: 100px;
+    height: 25px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border: #31b572;
+    background-color: #31b573de;
+    color: white;
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Lobster',
+        sans-serif;
+
+}
+
+.lmj-btn-filter {
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 60px;
+    margin: 25px;
+
+}

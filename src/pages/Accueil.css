@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC&display=swap');
+
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+        transform: translateX(-1050px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes myAnim2 {
+    0% {
+        opacity: 0;
+        transform: translateX(1050px);
+        display: none;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        display: flex;
+    }
+}
+
+.Accueil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+
+}
+
+.Accueil-content {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+}
+
+
+
+.Accueil-img {
+    width: 650px;
+    height: 487px;
+    object-fit: cover;
+    box-shadow: 1px 1px 15px 2px rgb(0 0 0 / 56%);
+    border-radius: 35px;
+}
+
+.Accueil-text-content-first,
+.Accueil-text-content-second,
+.Accueil-text-content-third {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+
+}
+
+
+.Accueil-title {
+    margin-top: 0px;
+    font-size: 50px;
+    color: greenyellow;
+    font-family: -apple-system, BlinkMacSystemFont, 'Lobster',
+        sans-serif;
+    white-space: nowrap;
+}
+
+.Accueil-box-img-first :nth-child(1) {
+    animation: myAnim 1.5s ease-in-out 0s 1 normal forwards;
+
+}
+
+.Accueil-text-content-first :nth-child(1n+0) {
+    animation: myAnim2 1.5s ease-in-out 0s 1 normal forwards;
+}
+
+.Accueil-box-img-second :nth-child(1) {
+    opacity: 0;
+    animation: myAnim2 1.5s ease-in-out 0s 1 normal forwards;
+    animation-delay: 1s;
+
+
+
+}
+
+.Accueil-text-content-second :nth-child(1n+0) {
+    opacity: 0;
+    animation: myAnim 1.5s ease-in-out 0s 1 normal forwards;
+    animation-delay: 1s;
+
+
+}
+
+.Accueil-box-img-third :nth-child(1) {
+    opacity: 0;
+    animation: myAnim 1.5s ease-in-out 0s 1 normal forwards;
+    animation-delay: 2s;
+
+
+}
+
+.Accueil-text-content-third :nth-child(1n+0) {
+    opacity: 0;
+    animation: myAnim2 1.5s ease-in-out 0s 1 normal forwards;
+    animation-delay: 2s;
+
+}

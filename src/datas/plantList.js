@@ -1,6 +1,12 @@
 import monstera from "../assets/monstera.jpg";
 import ficus from "../assets/ficus.jpg";
 import Pothos from "../assets/pothos.jpg";
+import Aloe from "../assets/Aloe.jpg";
+import Basilic from "../assets/basilic.jpg";
+import Geranium from "../assets/Geranium.jpg";
+import Olivier from "../assets/olivier.jpg";
+import Succulente from "../assets/Succulente.jpg";
+import Yucca from "../assets/Yucca.jpg";
 
 export const plantList = [
   {
@@ -28,6 +34,12 @@ export const plantList = [
     water: 3,
     cover: ficus,
     price: 4,
+    description:
+      "Une plante d'intérieur, c’est joli… Mais un arbre, oui un vrai arbre, avouez que ça en jette tout de suite plus ! Le Ficus Lyrata fait partie de la famille des figuiers et possède un beau feuillage atypique. En choisissant cette variété, vous gagnez en hauteur, mais ne misez pas sur ses figues, car cette grande plante africaine n’est pollinisée que par une espèce de guêpes qui n’atteindra jamais votre salon. Cependant, sa fonction esthétique est intacte à condition de bien choisir son emplacement !",
+    waterComment:
+      "Arrosez raisonnablement votre arbre : environ 1 fois par semaine en été et un peu moins fréquemment en hiver. Son besoin en eau est faible. Faites attention à ce qu’il n’y ait pas d’eau stagnante dans la soucoupe afin de ne pas asphyxier ses racines. Brumisez régulièrement ses feuilles à l’aide d’un vaporisateur avec de l’eau non calcaire pour maintenir une bonne humidité. ",
+    entretien:
+      "Pour que votre Ficus Lyrata conserve son éclat, nettoyez régulièrement ses feuilles avec un chiffon humide. Vous pouvez également apporter de l’engrais pour plantes vertes, 1 à 2 fois par mois au printemps et en été : une croissance boostée garantie ! Selon la taille de votre Ficus, vous pouvez le rempoter tous les 2 ou 3 ans dans un pot plus grand.",
   },
   {
     name: "Pothos argenté",
@@ -38,6 +50,12 @@ export const plantList = [
     water: 3,
     cover: Pothos,
     price: 8,
+    description:
+      "Le Pothos est une plante robuste et facile d’entretien, il conviendra à tous les publics et encore plus aux débutants qui désirent se lancer dans l’aventure jungle at home ! Peu exigeant, il saura s’adapter sans difficultés à de nombreux intérieurs. Découvrez quelques conseils pour en prendre soin : ",
+    waterComment:
+      "Au niveau de l’arrosage, il est l’amoureux des têtes en l’air puisque moins on l’arrose : mieux il se porte !  Le Pothos Argenté fait partie de ces plantes qui détestent que le sol dans lequel il vit soit détrempé. On évitera alors d’avoir la main lourde et bien espacer les arrosages.  D’ailleurs, si votre plante a un gros coup de soif, il vous le fera savoir en enroulant ses feuilles.",
+    entretien:
+      "Rien de plus facile que de bouturer le pothos : il vous suffit de couper un morceau de liane en dessous d’un nœud, à la longueur souhaitée et de placer la tige dans l’eau. Au bout de quelques  jours vous pourrez voir apparaître des racines ! Vous n’aurez qu’à replanter celle-ci avec la plante mère pour lui donner un beau volume.",
   },
   {
     name: "Yucca",
@@ -46,7 +64,7 @@ export const plantList = [
     isBestSale: false,
     light: 3,
     water: 3,
-    cover: monstera,
+    cover: Yucca,
     price: 5,
   },
   {
@@ -56,7 +74,7 @@ export const plantList = [
     isBestSale: false,
     light: 3,
     water: 3,
-    cover: monstera,
+    cover: Olivier,
     price: 13,
   },
   {
@@ -66,17 +84,17 @@ export const plantList = [
     isBestSale: false,
     light: 3,
     water: 3,
-    cover: monstera,
+    cover: Geranium,
     price: 15,
   },
   {
-    name: "Basilique",
+    name: "Basilic",
     category: "Extérieur",
     id: "7ie",
     isBestSale: false,
     light: 3,
     water: 3,
-    cover: monstera,
+    cover: Basilic,
     price: 17,
     isSpecialOffer: true,
   },
@@ -87,7 +105,7 @@ export const plantList = [
     isBestSale: false,
     light: 3,
     water: 2,
-    cover: monstera,
+    cover: Aloe,
     price: 10,
     isSpecialOffer: true,
   },
@@ -98,7 +116,7 @@ export const plantList = [
     isBestSale: false,
     light: 3,
     water: 1,
-    cover: monstera,
+    cover: Succulente,
     price: 11,
   },
 ];
